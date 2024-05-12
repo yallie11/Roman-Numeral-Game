@@ -1,0 +1,53 @@
+h1 {margin-left:  50px;
+    color:white; margin-top:100px;
+}
+
+
+.inputcontainer { 
+margin-top: 25px;  
+  margin-left: 50px;
+  color:white;
+  font-size: 20px;
+  display:flex;
+  flex-direction: column;
+  
+}
+
+body { background-image: url(https://wallpapers.com/images/hd/rome-2-julius-caesar-of-rome-u4bfw81i2f71vkvo.jpg);
+background-repeat: no-repeat; 
+}
+
+#output { 
+    margin-left: 52px;
+    margin-top:50px;
+    color:white;
+    font-size: 40px;
+    
+}
+
+
+#number{ font-size:15px; 
+margin-right:85%}
+
+#convert-btn {
+    font-size:15px;
+    margin-right:90%;
+    margin-left:5%;
+    margin-top:5px;
+    border: 2px solid transparent ;
+    border-radius: 8px;
+    cursor:pointer;
+   
+
+}
+
+#convert-btn:hover{
+    background-color: grey;
+    border: 2px solid grey;
+}
+
+
+#convert-btn:focus {
+    outline: none; /* Remove outline */
+    box-shadow: 0 0 10px grey; /* Add shadow */
+}
